@@ -9,7 +9,7 @@ function programaPrincipal() {
     url = "https://raw.githubusercontent.com/lea-robles/ProyectoFinalJsRobles/main/productos.json"
     }
 
-    fetch(url)
+    fetch("https://raw.githubusercontent.com/lea-robles/ProyectoFinalJsRobles/main/productos.json")
         .then(response => response.json())
         .then(data => {
             productos = data.productos
