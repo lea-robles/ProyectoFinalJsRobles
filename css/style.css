@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+#productos {
+    background-color: rgb(158, 155, 155);
+}
+
+#carrito {
+    background-color: rgb(182, 180, 180);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(67, 67, 67);
+    width: 90%;
+    height: auto;
+}
+
+#carrito p {
+    border-style: solid;
+    border-color: rgb(250, 170, 22);
+    border-radius: 4px;
+    border-width: 2px;
+    padding: 4px;
+}
+
+.header{
+    background-color: #ffa500;
+    padding: 5px;
+}
+
+.tarjetasFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tarjetasPetshop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #ffa500;
+    background-color: #ffffff;
+}
+
+.ocultar {
+    display: none;
+}
+
+/* SWEETALERT */
+
+.botonConfirmModal {
+    background-color: #ffa500 !important;
+}
+
+.botonConfirmModal :active {
+    color: #000000 !important;
+}
+
+.swal2-confirm:focus {
+    box-shadow: none !important;
+}
+
+ /* TOASTIFY */
+
+.notiToastify {
+    border-color: #000000 ;
+    border-width: 2px;
+    border-style: solid;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacc | PetShop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>PetShop</h1>
+    </header>
+    <main>
+        <input id="buscarProductos" placeholder="Ingrese nombre del producto">
+        <button class="filtroCategorias" value="accesorios">Accesorios</button>
+        <button class="filtroCategorias" value="alimentos">Alimentos</button>
+        <button class="filtroCategorias" value="higiene">Higiene</button>
+        <button class="filtroCategorias" value="juguetes">Juguetes</button>
+        <button class="filtroCategorias" value="quitar">Quitar Filtros</button>
+        <button id="botonCarrito">Ver Carrito</button>
+        <button id="botonVaciarCarrito">Vaciar Carrito</button>
+        <div id="productos" class="tarjetasFlex"></div>
+        <div id="carrito" class="ocultar"></div>
+        <button id="finalizarCompra" class="ocultar">Finalizar Compra</button>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
