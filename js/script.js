@@ -6,7 +6,7 @@ function programaPrincipal() {
     if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
     url = "../productos.json"
     } else {
-    url = "https://raw.githubusercontent.com/lea-robles/ProyectoFinalJsRobles/main/Productos/productos.json"
+    url = "https://raw.githubusercontent.com/lea-robles/ProyectoFinalJsRobles/main/productos.json"
     }
 
     fetch(url)
