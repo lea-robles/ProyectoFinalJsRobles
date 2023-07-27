@@ -37,6 +37,13 @@ p {
   line-height: 1.6em;
 }
 
+body {
+  background-image: url(../img/backagrounds/background-naranja.jpg);
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* ------ */
 
 #productos {
@@ -60,15 +67,41 @@ p {
     padding: 4px;
 }
 
-.header{
-    background-color: #ffa500;
-    padding: 5px;
+main button:hover {
+  background: linear-gradient(to bottom, rgb(252, 138, 32), rgb(248, 228, 9));
+}
+
+button {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.contenedor-h {
+  background-color: #ffa500;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  margin: 0;
+  width: 100%;
+}
+
+.text-white {
+  color: #ffffff;
 }
 
 .tarjetasFlex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(81, 81, 81);
+    background-color: rgba(255, 166, 0, 0.592);
 }
 .tarjetasPetshop {
     display: flex;
