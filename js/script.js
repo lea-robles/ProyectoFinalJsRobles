@@ -1,13 +1,13 @@
 function programaPrincipal() {
 
     let productos = []
-    let url
+    const url = "./productos.json"
     // Condicional para url segun lugar de ejecucion (local o github)
-    if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-    url = "../productos.json"
+    /* if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+    url = "./productos.json"
     } else {
     url = "https://raw.githubusercontent.com/lea-robles/ProyectoFinalJsRobles/main/productos.json"
-    }
+    } */
 
     fetch(url)
         .then(response => response.json())
