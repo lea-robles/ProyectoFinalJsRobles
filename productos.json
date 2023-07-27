@@ -2,7 +2,7 @@
     "productos": [
         {
             "id": 3,
-            "nombre": "alimento de gato x 1kg",
+            "nombre": "Alimento de gato x 1kg",
             "categoria": "alimentos",
             "stock": 9,
             "precio": 1000,
@@ -10,7 +10,7 @@
         },
         {
             "id": 5,
-            "nombre": "alimento de perro x 1kg",
+            "nombre": "Alimento de perro x 1kg",
             "categoria": "alimentos",
             "stock": 7,
             "precio": 1300,
@@ -18,7 +18,7 @@
         },
         {
             "id": 6,
-            "nombre": "collar de gato",
+            "nombre": "Collar de gato",
             "categoria": "accesorios",
             "stock": 2,
             "precio": 700,
@@ -26,7 +26,7 @@
         },
         {
             "id": 8,
-            "nombre": "collar de perro",
+            "nombre": "Collar de perro",
             "categoria": "accesorios",
             "stock": 1,
             "precio": 900,
@@ -34,7 +34,7 @@
         },
         {
             "id": 11,
-            "nombre": "piedras sanitarias x 1kg",
+            "nombre": "Piedras sanitarias x 1kg",
             "categoria": "higiene",
             "stock": 5,
             "precio": 400,
@@ -42,7 +42,7 @@
         },
         {
             "id": 13,
-            "nombre": "ratón de plástico",
+            "nombre": "Ratón de plástico",
             "categoria": "juguetes",
             "stock": 4,
             "precio": 400,
@@ -50,7 +50,7 @@
         },
         {
             "id": 15,
-            "nombre": "pelota de tenis",
+            "nombre": "Pelota de tenis",
             "categoria": "juguetes",
             "stock": 6,
             "precio": 500,
@@ -58,7 +58,7 @@
         },
         {
             "id": 17,
-            "nombre": "hueso de cuero",
+            "nombre": "Hueso de cuero",
             "categoria": "juguetes",
             "stock": 5,
             "precio": 600,
@@ -66,7 +66,7 @@
         },
         {
             "id": 19,
-            "nombre": "rascador para gatos",
+            "nombre": "Rascador para gatos",
             "categoria": "juguetes",
             "stock": 2,
             "precio": 1800,
